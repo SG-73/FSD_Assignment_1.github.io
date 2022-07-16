@@ -20,6 +20,9 @@ body {
   align-items: center;
   overflow: hidden;
 }
+.item4{
+  margin-left: -25%;
+}
 .container {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 1rem;
@@ -56,7 +59,7 @@ i {
 }
 .item3,
 .item4 {
-  width: max-content;
+  width: 22vw;
 }
 .item2,
 .item5,
@@ -134,8 +137,11 @@ h5 {
   html {
     font-size: 80%;
   }
+  .item4{
+    margin-left: 0;
+  }
 }
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   .container {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 1rem;
